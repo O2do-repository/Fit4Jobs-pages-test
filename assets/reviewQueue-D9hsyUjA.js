@@ -1,0 +1,1 @@
+import{d as u}from"./listCache-2EF3iWJu.js";const o=e=>{if(e==null)return"—";if(e<1e3)return`${e} ms`;const t=Math.round(e/1e3);return t<60?`${t} s`:`${Math.floor(t/60)} min ${String(t%60).padStart(2,"0")} s`},i=u("reviewQueue",{url:"/consultant/review-queue",key:"consultantUuid",maxAgeMs:30*1e3,autoRefresh:!0});export{o as f,i as u};
